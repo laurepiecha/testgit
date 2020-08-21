@@ -3,7 +3,7 @@
 
     <record model="ir.ui.view" id="wash_instruction_list">
       <field name="name">wash_instruction list</field>
-      <field name="model">create_model.create_model</field>
+      <field name="model">create_mod    el.create_model</field>
       <field name="arch" type="xml">
         <tree>
           <field name="instruction_text"/>
