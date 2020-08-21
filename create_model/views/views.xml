@@ -1,0 +1,29 @@
+<odoo>
+  <data>
+
+    <record model="ir.ui.view" id="wash_instruction_list">
+      <field name="name">wash_instruction list</field>
+      <field name="model">create_model.create_model</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="instruction_text"/>
+          <field name="instruction_pict"/>
+        </tree>
+      </field>
+    </record>
+
+
+    <record model="ir.actions.act_window" id="create_model.myaction">
+      <field name="name">wash_instruction action win</field>
+      <field name="res_model">create_model.create_model</field>
+      <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem name="washinstructionaaaaaaaaaaaaaaa" id="yyy"
+              sequence="20" action="create_model.myaction" />
+
+
+
+
+  </data>
+</odoo>
